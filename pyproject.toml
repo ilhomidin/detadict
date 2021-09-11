@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "detadict"
+version = "0.1.0"
+description = "Python dict with Deta backend"
+authors = ["ilhomidin <itilhomidin@yandex.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+deta = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+pylint = "^2.10.2"
+isort = "^5.9.3"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
