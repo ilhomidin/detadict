@@ -15,3 +15,5 @@ repos:
     hooks:
     -   id: pylint
         language_version: python3.7
+        additional_dependencies:
+        - deta
