@@ -39,3 +39,9 @@ exclude = '''
 [tool.isort]
 profile = "black"
 line_length = 79
+
+[tool.pylint.format]
+max-line-length = 79
+disable = '''
+    C0103
+'''
