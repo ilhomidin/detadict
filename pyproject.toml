@@ -4,6 +4,15 @@ version = "0.1.0"
 description = "Python dict with Deta backend"
 authors = ["ilhomidin <itilhomidin@yandex.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ilhomidin/detadict"
+keywords = ["deta", "dict"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.7",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
